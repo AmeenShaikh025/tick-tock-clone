@@ -1,6 +1,6 @@
 .videoFooter {
   position: relative;
-  bottom: 130px;
+  bottom: 170px;
   margin-left: 30px;
   color: white;
   display: flex;
@@ -41,5 +41,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .videoFooter {
+    bottom: 120px;
   }
 }

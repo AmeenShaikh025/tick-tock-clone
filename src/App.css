@@ -2,7 +2,7 @@ html {
   scroll-snap-type: y mandatory;
 }
 .app {
-  height: 110vh;
+  height: 100vh;
   background-color: black;
   display: grid;
   place-items: center;
@@ -27,3 +27,11 @@ html {
   scrollbar-width: none;
 }
 /* Hide scrollbar */
+
+@media (max-width: 767px) {
+  .app__videos {
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+  }
+}
